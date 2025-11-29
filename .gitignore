@@ -29,3 +29,5 @@ data
 .vscode/
 .cursorrules
 .cursorignore
+config.bat
+node_modules
