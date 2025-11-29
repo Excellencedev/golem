@@ -20,7 +20,7 @@
   "scripts": {
     "update-wit-deps": "wit-deps -d wit/deps -m wit/deps.toml -l wit/deps.lock",
     "generate-types": "rm -rf types && jco guest-types wit -o types",
-    "build": "tsc",
+    "build": "node init && tsc",
     "check": "npx @biomejs/biome check",
     "fix": "npx @biomejs/biome check --write"
   },

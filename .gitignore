@@ -26,6 +26,7 @@ data
 
 # IDEs
 .idea/
-.vscode/
 .cursorrules
 .cursorignore
+config.bat
+node_modules
